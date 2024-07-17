@@ -82,7 +82,15 @@ private static void ver_productos(){
 }
 // Método para manejar el precio total
 private static void precio_total(){
-    
+    Scanner sc = new Scanner(System.in);
+    int n1 = 0;
+    int n2 = 0;
+    System.out.println("ingrese sus numeros: ");
+    n1 = sc.nextInt();    
+    System.out.println("INGRESE SU SEGUNDO NUMERO");
+    n2 = sc.nextInt();
+
+    System.out.println("la suma de sus nuemros es: " + (n1 + n2));
     
 }
    
